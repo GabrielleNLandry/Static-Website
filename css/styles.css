@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #630000;
+    color: #EDEBDD;
+    padding: 20px;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #1b1717;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(155, 75, 75, 0.818);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #EDEBDD;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #EDEBDD;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #810100;
+  }
+  
+  /* Main Layout */
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Product Cards */
+  .product {
+    background-color: #EDEBDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease;
+  }
+  
+  .product:hover {
+    transform: scale(1.01);
+  }
+  
+  .product h2 {
+    color: #810100;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 5px;
+    color: #370000;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    .product {
+      padding: 15px;
+    }
+  }
+
+  .about {
+    background-color: #EDEBDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s ease;
+  }
+  .about:hover {
+    transform: scale(1.01);
+  }
+  
+  .about h2 {
+    color: #810100;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    margin-bottom: 5px;
+    color: #370000;
+  }
+  
